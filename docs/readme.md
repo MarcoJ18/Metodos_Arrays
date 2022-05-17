@@ -1,5 +1,8 @@
 ### Transformadores
 
+Modifica el array
+
+
 - pop() -> elimina el último elemento de un array y lo devuelve
 - shift() -> elimina el primer elemento de un array y lo devuelve
 - push() -> agrega un elemento al array al final de la lista
@@ -12,12 +15,17 @@
 
 ### Accesores
 
+Crear un nuevo array
+
 - join() -> une todos los elementos de una matriz (u objeto similar) en una cadena y la devuelve
 - slice() -> devuelve una parte del array dentro de un nuevo array empezando por inicio hasta fin (fin no incluido)
-- Metodos ya vistos en cadenas: toString(), indexOf(),
+- Metodos ya vistos en cadenas: toString(), indexOf(), lastIndexOf() ,includes()
 
 
 ### De Repetición
 
-- filter() -> crea un nuevo array con todo los elementos
-- forEach() -> ejecuta la función indicada una vez por cada
+Trata de interaciones
+
+- filter() -> crea un nuevo array con todo los elementos que cumplan la condición
+- forEach() -> ejecuta la función indicada una vez por cada elemento del array
+- map() ???

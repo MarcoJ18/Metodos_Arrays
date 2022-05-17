@@ -1,9 +1,14 @@
+h1{
+    text-align: center;
+}
+
 .main {
-   
+   border: 2px red solid;
    display: grid;
    grid-template-columns: repeat(auto-fill,23%);
    text-align: center;
    grid-gap: 2%;
+   padding: 5%;
 
 }
 
@@ -45,5 +50,14 @@
     background-color: bisque;
 }
 
+.main div:nth-child(5){
+    background-color:chocolate;
+}
 
+.main div:nth-child(6){
+    background-color:powderblue;
+}
 
+.main div:nth-child(7){
+    background-color:seagreen;
+}
